@@ -1,0 +1,62 @@
+# ── Secrets ──────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+*.so
+.mypy_cache/
+.ruff_cache/
+
+# ── Node / Next.js ────────────────────────────────────────
+node_modules/
+.next/
+out/
+/build
+.pnp
+.pnp.js
+.yarn/install-state.gz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── TypeScript ────────────────────────────────────────────
+*.tsbuildinfo
+next-env.d.ts
+
+# ── LaTeX build artifacts ─────────────────────────────────
+*.aux
+*.log
+*.out
+*.pdf
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ── macOS ─────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Editors ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Coverage / testing ────────────────────────────────────
+/coverage
+.pytest_cache/
+htmlcov/

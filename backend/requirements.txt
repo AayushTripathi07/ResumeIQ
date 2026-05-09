@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+# AI + Parsing dependencies
+PyMuPDF
+requests
+sentence-transformers
+keybert
+scikit-learn
+python-dotenv
+google-generativeai
+groq
+# Optional utils
+orjson
+jinja2
